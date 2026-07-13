@@ -3,14 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MacPilot 隐私政策</title>
+  <title>DiskLoom 隐私政策</title>
   <style>
-    :root {
-      color-scheme: light dark;
-      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", Arial, sans-serif;
-      background: Canvas;
-      color: CanvasText;
-    }
+    :root { color-scheme: light dark; font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", Arial, sans-serif; background: Canvas; color: CanvasText; }
     body { margin: 0; line-height: 1.7; }
     main { max-width: 860px; margin: 0 auto; padding: 72px 24px; }
     h1 { font-size: clamp(32px, 6vw, 58px); line-height: 1.1; margin: 0 0 18px; letter-spacing: 0; }
@@ -22,26 +17,23 @@
 </head>
 <body>
   <main>
-    <h1>MacPilot 隐私政策</h1>
-    <p class="muted">最后更新：2026 年 6 月 30 日。</p>
+    <h1>DiskLoom 隐私政策</h1>
+    <p class="muted">最后更新：2026 年 7 月 13 日。</p>
 
-    <h2>我们不收集你的数据</h2>
-    <p>MacPilot 的扫描结果、访问记录和设置默认保存在你的 Mac 本机。你的文件路径、文件名、扫描结果或使用记录不会离开这台 Mac。</p>
+    <h2>不收集数据</h2>
+    <p>DiskLoom 不会把文件、文件路径、分析结果、设备状态或使用记录上传给开发者或第三方。</p>
 
-    <h2>权限如何使用</h2>
-    <p>MacPilot 只访问你通过 macOS 系统选择器确认的位置，并使用系统提供的访问记录在下次打开时继续扫描。你可以在应用内移除访问记录。</p>
+    <h2>本机处理</h2>
+    <p>应用只处理你通过 macOS 系统位置选择器明确授权的位置。访问记录、缓存、设置、本地分析摘要和决策记录保存在应用 sandbox container 中。</p>
 
-    <h2>扫描如何处理</h2>
-    <p>MacPilot 只统计确认位置内可访问目录的容量、文件数量、扫描时间和状态，并记录你手动标记的已复核或忽略状态。当前版本不会删除、移动或修改你的文件。</p>
+    <h2>权限边界</h2>
+    <p>应用不声称覆盖完整磁盘，不请求管理员密码、全盘访问或特权权限。读写权限仅限用户明确授权的范围和用户主动发起的操作；应用不会自动清理文件。本机文件移入废纸篓前会再次确认并复核身份，云盘项目交由 Finder 处理。</p>
 
-    <h2>第三方服务</h2>
-    <p>当前版本不包含广告 SDK、第三方分析 SDK、跨 App 追踪、账号系统或云同步服务。</p>
+    <h2>导出</h2>
+    <p>诊断摘要隐藏真实路径，并通过标准 macOS 存储对话框导出到用户选择的位置；内部 container 不作为用户文档的默认保存位置。</p>
 
-    <h2>付款信息</h2>
-    <p>App Store 的购买、下载和退款流程由 Apple 处理。MacPilot 不会在应用内接收你的付款卡号或账单资料。</p>
-
-    <h2>未来变更</h2>
-    <p>如果未来加入崩溃上报、云同步、账号、反馈表单或在线解释功能，我们会提前更新本政策，并在应用商店页面中说明。</p>
+    <h2>第三方服务与付款</h2>
+    <p>当前版本不包含广告、第三方分析、跨 App 追踪、账号或云同步。App Store 的购买、下载和退款由 Apple 处理。</p>
 
     <h2>联系</h2>
     <p>如需联系，请发送邮件至 <a href="mailto:uberadamfor4@gmail.com">uberadamfor4@gmail.com</a>。</p>
