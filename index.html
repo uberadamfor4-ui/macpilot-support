@@ -3,112 +3,52 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MacPilot 支持</title>
+  <title>DiskLoom 支持</title>
   <style>
-    :root {
-      color-scheme: light dark;
-      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", Arial, sans-serif;
-      background: Canvas;
-      color: CanvasText;
-    }
-    body {
-      margin: 0;
-      line-height: 1.65;
-    }
-    main {
-      max-width: 920px;
-      margin: 0 auto;
-      padding: 72px 24px;
-    }
-    h1 {
-      font-size: clamp(34px, 6vw, 64px);
-      line-height: 1.08;
-      margin: 0 0 18px;
-      letter-spacing: 0;
-    }
-    h2 {
-      margin-top: 44px;
-      font-size: 24px;
-    }
-    p, li {
-      font-size: 17px;
-    }
-    a {
-      color: #0a84ff;
-    }
-    .lead {
-      max-width: 720px;
-      color: color-mix(in srgb, CanvasText 72%, transparent);
-      font-size: 19px;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 16px;
-      margin-top: 28px;
-    }
-    .item {
-      border: 1px solid color-mix(in srgb, CanvasText 14%, transparent);
-      border-radius: 8px;
-      padding: 18px;
-      background: color-mix(in srgb, Canvas 94%, CanvasText 6%);
-    }
-    .item h3 {
-      margin: 0 0 8px;
-      font-size: 18px;
-    }
-    .item p {
-      margin: 0;
-      color: color-mix(in srgb, CanvasText 70%, transparent);
-    }
-    footer {
-      margin-top: 56px;
-      color: color-mix(in srgb, CanvasText 56%, transparent);
-      font-size: 14px;
-    }
+    :root { color-scheme: light dark; font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", Arial, sans-serif; background: Canvas; color: CanvasText; }
+    body { margin: 0; line-height: 1.65; }
+    main { max-width: 920px; margin: 0 auto; padding: 72px 24px; }
+    h1 { font-size: clamp(34px, 6vw, 64px); line-height: 1.08; margin: 0 0 18px; letter-spacing: 0; }
+    h2 { margin-top: 44px; font-size: 24px; }
+    p, li { font-size: 17px; }
+    a { color: #0a84ff; }
+    .lead { max-width: 720px; color: color-mix(in srgb, CanvasText 72%, transparent); font-size: 19px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin-top: 28px; }
+    .item { border: 1px solid color-mix(in srgb, CanvasText 14%, transparent); border-radius: 8px; padding: 18px; background: color-mix(in srgb, Canvas 94%, CanvasText 6%); }
+    .item h3 { margin: 0 0 8px; font-size: 18px; }
+    .item p { margin: 0; color: color-mix(in srgb, CanvasText 70%, transparent); }
+    footer { margin-top: 56px; color: color-mix(in srgb, CanvasText 56%, transparent); font-size: 14px; }
   </style>
 </head>
 <body>
   <main>
-    <h1>MacPilot 支持</h1>
-    <p class="lead">MacPilot 帮你看清授权目录的空间占用，并把容量、项目数量和目录类型转成更容易理解的中文整理建议。扫描结果保存在本机，不需要账号，也不会上传你的文件路径。</p>
+    <h1>DiskLoom 支持</h1>
+    <p class="lead">DiskLoom 是本地存储决策工具，帮助你分析明确选择的位置，理解文件夹占用，并在 Finder 中复核内容。分析结果和设置保存在本机。</p>
 
     <section class="grid" aria-label="支持入口">
-      <article class="item">
-        <h3>开始使用</h3>
-        <p>打开 MacPilot 后点击“添加目录”，通过系统选择器授权下载、桌面、文稿或项目目录。</p>
-      </article>
-      <article class="item">
-        <h3>空间驾驶舱</h3>
-        <p>总览页会显示扫描范围、已识别空间、上次扫描和当前状态。</p>
-      </article>
-      <article class="item">
-        <h3>空间读法</h3>
-        <p>下载、桌面、文稿和项目目录会获得不同解释，方便你判断下一步。</p>
-      </article>
-      <article class="item">
-        <h3>隐私与数据</h3>
-        <p>诊断摘要需要手动导出，并会隐藏真实路径，方便反馈问题。</p>
-      </article>
+      <article class="item"><h3>开始分析</h3><p>点击“选择位置并分析”，再通过 macOS 系统位置选择器确认要分析的文件夹。</p></article>
+      <article class="item"><h3>查看结果</h3><p>按容量查看文件夹和大文件，使用快速预览或 Finder 判断内容。</p></article>
+      <article class="item"><h3>记录决定</h3><p>可打开 Finder 复核内容，并记录已查看或 30 天后提醒；记录状态不代表文件已被清理。</p></article>
+      <article class="item"><h3>安全处理</h3><p>本机文件经确认和身份复核后可移入废纸篓；云盘项目交由 Finder 处理。</p></article>
     </section>
 
     <h2>常见问题</h2>
     <ul>
-      <li>扫描不会删除或移动文件，只统计你授权目录中的容量和项目数量。</li>
-      <li>应用不会默认访问全盘文件；你授权哪里，MacPilot 才扫描哪里。</li>
-      <li>整理建议只用于帮助你理解空间来源，真正处理前请先在 Finder 中确认内容。</li>
-      <li>移除授权目录后，MacPilot 会停止在后续扫描中统计该目录。</li>
-      <li>诊断摘要会隐藏真实路径，只保留目录名称、容量和状态等排查信息。</li>
-      <li>MacPilot 不会在应用内索取管理员密码，也不会安装系统级后台服务。</li>
+      <li>DiskLoom 只分析你明确选择且 macOS 允许访问的位置，不声称覆盖完整磁盘。</li>
+      <li>结果可能受授权范围、受限项目和扫描上限影响。</li>
+      <li>应用不会自动清理文件，不请求管理员密码、全盘访问或特权权限。</li>
+      <li>文件在分析后发生变化时，DiskLoom 会拒绝废纸篓操作并要求重新分析。</li>
+      <li>移除访问记录后，应用会停止在后续分析中使用该位置。</li>
+      <li>诊断摘要隐藏真实路径，并应通过标准 macOS 存储对话框导出到你选择的位置。</li>
     </ul>
 
     <h2>隐私</h2>
-    <p>MacPilot 不需要账号，不上传扫描结果，不包含广告或第三方分析 SDK。完整说明见 <a href="./privacy-policy.html">隐私政策</a>。</p>
+    <p>DiskLoom 不需要账号，不包含广告或第三方分析 SDK。完整说明见 <a href="./privacy-policy.html">隐私政策</a>。</p>
 
     <h2>联系支持</h2>
-    <p>如需帮助，请通过应用商店页面中的开发者联系方式联系。你也可以在反馈中附上问题描述、macOS 版本和相关截图，方便定位。</p>
+    <p>如需帮助，请发送邮件至 <a href="mailto:uberadamfor4@gmail.com">uberadamfor4@gmail.com</a>。</p>
 
-    <footer>MacPilot 会优先保护你的本机数据，扫描范围始终由你决定。</footer>
+    <footer>DiskLoom 的分析范围始终由用户通过 macOS 系统位置选择器决定。</footer>
   </main>
 </body>
 </html>
